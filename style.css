@@ -1,0 +1,252 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+    color:black;
+}
+body{
+    font-family: 'ProximaNova';
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/background-image.png');
+    background-size:cover;
+    position:relative;
+    margin:1.5rem;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    display: flex;
+    justify-content: center ;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+#about, #famous-quotes, #contact, #copyright, #skills{
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+/* #contact {
+    padding-bottom: 4rem;
+} */
+/* about section image css */
+.imageAboutPage {
+    width: 80%;
+    height:80%;
+    border-radius: 50%;
+    margin:2.2rem;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    
+    text-align: center;
+}
+
+
+
+
+  .container p span.typed-text {
+    font-weight: bold;
+    color: aqua;
+    
+  }
+
+  .running-font{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
+
+.border-about{
+    border:4px solid green;
+    border-radius: 30px 20px;
+    padding:1rem;
+    font-family: 'ProximaNova';
+    color:white;
+    font-size:20px;
+    background-color: black;
+}
+
+
+
+
+.button-adjust{
+    color:white;
+    padding: 10px 15px;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+.button-adjust:hover{
+    background-color: white;
+    text-decoration: none;
+    color:black;
+}
+.connect-button{
+    margin: 40px;
+}
+
+
+.connect-anchor{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+.connect-anchor:hover{
+    border:1px solid #808080;
+    border-radius:30px;
+    padding:10px 30px;
+    color:aquamarine
+}
+
+.social-media-icons{
+    display:flex;
+    justify-content: center;
+  background-color:aliceblue;
+  border-radius: 30px;
+  padding:0 30px 0 0;
+  margin:3.5rem 0 0 0;
+}
+
+#famous-quotes{
+    margin:3rem 0 1rem 1rem;
+}
+
+.head-quotes{
+    display: flex;
+    justify-content: center;
+    font-family: 'ProximaNova';
+    font-weight: bold;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+
+              
+.quotes{
+    background-color: coral;
+    display: block;
+    border: 20px solid white;
+    padding: 30px;
+
+}
+
+.image-attr{
+    display: flex;
+    justify-content: center;
+}
+
+.display-flex{
+display: flex;
+justify-content: space-around;
+font-family: 'ProximaNova';
+font-size:1.2rem;
+flex-wrap: wrap;
+
+}
+
+.heart-color{
+    color:red;
+}
+.center-love{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    
+}
+
+.img-flex{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:3rem;
+    justify-content: space-around;
+}
+
+.skills-section{
+    font-weight: bold;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+}
+      
+      
+.image-dim{
+    height:7rem;
+    width:7rem;
+}
+.skill-section-whole{
+    background-color: burlywood;
+    border-radius: 30px;
+    padding:40px;
+    margin:25px;
+}
